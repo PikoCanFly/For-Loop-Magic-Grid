@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Loops Rock!</title>
+    <style>
+        body{
+            text-align: center;
+            overflow: hidden;
+        }
+        .color-box{
+            width:100px;
+            height:100px;
+            display: inline-block;
+
+        }
+    </style>
+</head>
+<body>
+    <script>
+
+        function generateRandomColor(){
+            const characters = "0123456789ABCDEF";
+            let color = "#";
+            for(let i = 0; i<6; i++ ){
+                color += characters[Math.floor(Math.random()*16)]
+            }
+            return color;
+            
+        }
+        
+        function changeColors(){
+            const colorBoxes = document.querySelectorAll(".color-box");
+            for(let i = 0; i < colorBoxes.length; i++){
+                colorBoxes[i].style.backgroundColor = "transparent";
+            }
+            for(let i = 0; i < colorBoxes.length; i++){
+                setTimeout(() =>{
+                    colorBoxes[i].style.backgroundColor = generateRandomColor();
+                }, (i+1)*50)
+
+            }
+        }
+        
+        function createSquareGrid(){
+
+            const rows = Math.floor(window.innerHeight/100);
+            const columns = Math.floor(window.innerWidth/100);
+            const container = document.createElement("div");
+            for(let row = 1; row<=rows; row++){
+                for(let column=1; column<=columns; column++){
+                    const colorBox = document.createElement("div");
+                    colorBox.className = "color-box";
+                    container.appendChild(colorBox);
+                }
+            }
+            document.body.appendChild(container);
+            
+        }
+        createSquareGrid();
+        document.onclick = changeColors;
+    </script>
+    
+</body>
+</html>
