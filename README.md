@@ -3,6 +3,7 @@
 ⚙️ Explore the power of for loops in JavaScript to dynamically create and manipulate DOM elements! 🔄 This repository contains code examples and resources from the corresponding YouTube tutorial, where we delve into the art of dynamic DOM creation for enhanced web development.
 
 📺 **Watch the Tutorial on YouTube:**
+
 [![Learn For Loops](https://img.youtube.com/vi/ZH8lBHYbDko/0.jpg)](https://www.youtube.com/watch?v=ZH8lBHYbDko)
 
 ## 🌐 Key Features:
