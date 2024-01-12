@@ -4,7 +4,7 @@
 
 📺 **Watch the Tutorial on YouTube:**
 
-[![Learn For Loops](https://img.youtube.com/vi/ZH8lBHYbDko/0.jpg)](https://www.youtube.com/watch?v=ZH8lBHYbDko)
+[![Learn For Loops](https://img.youtube.com/vi/gYtwE-PElBs/0.jpg)](https://www.youtube.com/watch?v=gYtwE-PElBs)
 
 ## 🌐 Key Features:
 - **For Loop Mastery:** Learn how to harness the efficiency of for loops for dynamic DOM manipulation.
@@ -24,7 +24,6 @@
 2. Explore the code examples in the `src` directory.
 3. Follow along with the YouTube tutorial for in-depth explanations and demonstrations.
 
-## 🎉 Let's Code Together!
-Join the coding adventure by watching the tutorial, and don't forget to like, share, and subscribe on [YouTube](insert_youtube_link_here) for more exciting coding content!
+
 
 Happy coding! 💻✨
